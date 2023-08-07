@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Document</title>
+
+   <style>
+    body{
+        background-image: linear-gradient(green,pink,blue);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        margin-top: 200px;
+    }
+   </style>
+
+</head>
+
+<body>
+    <marquee style="direction :ltr;"><h1>MINI MESSENGER</h1></marquee>
+
+   <div class = "container">
+
+       <h2>Text the message</h2>
+
+   </div>
+
+   <label> Enter a message</label><br><br>
+
+   <label>📧</label>
+
+   <input type = "text" id = "msg-ip" placeholder="enter your msg"><br><br>
+
+   <button id = "click" onclick="getMessage()">submit</button>
+
+   <p id="msg-output"></p>
+
+</body>
+
+<script src ="script.js"></script>
+
+</html>
